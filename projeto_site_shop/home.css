@@ -29,6 +29,13 @@ body{
 
 /* NAVEGAÇÃO */
 
+.propaganda {
+    position: sticky;
+    top: 1rem;
+    background-color: black;
+    height: 20px;
+}
+
 nav{
     display: flex;
     align-items: center;
