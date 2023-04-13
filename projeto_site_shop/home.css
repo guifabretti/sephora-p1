@@ -86,8 +86,8 @@ a.nav_link{
 a.nav_link:hover{
     text-decoration: none;
     color: black;
-    text-decoration: underline;
-    border-bottom: 2px solid black; 
+    text-underline-position: under;
+    border-bottom: 2px solid black;
     /* margin-top: 2px; */
 }
 
