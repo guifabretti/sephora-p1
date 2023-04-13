@@ -11,6 +11,14 @@
 body{
     font-size: 1.5rem;
 }
+.titulo-topo{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    font-size: 5rem;
+    color: white;
+    width: 350px;
+}
 
 nav{
     display: flex;
@@ -23,3 +31,56 @@ nav{
     padding: 0 2.4rem;
 }
 
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+button{
+    padding: 1rem 1.6rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.titulo-principal {
+    font-size:3rem;
+    background-color:whitesmoke;
+    color: #FAFFFA;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    padding: 1.25rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+img{
+    text-align: center;
+    width: 100%;
+}
+.container{
+    display: flex;
+    text-align: center;
+    width: 60%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container-fluid{
+    text-align: center;
+   
+}
+
+.ico{
+    display: flex;
+    gap: 10%;
+}
+
+a:hover{
+    background-color: whitesmoke;
+}
