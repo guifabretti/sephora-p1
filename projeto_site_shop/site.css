@@ -1,0 +1,25 @@
+/*Representa todos os elementos da minha página, reseta*/*{ 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+
+    padding: 0 2.4rem;
+}
+
