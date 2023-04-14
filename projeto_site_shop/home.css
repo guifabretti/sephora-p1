@@ -36,6 +36,8 @@ body{
     border-bottom: 2px solid black;
 }
 
+/*---PROPAGANDA--- */
+
 .propaganda{
     position: fixed;
     top: 1rem;
@@ -56,12 +58,17 @@ body{
     text-align: center;
 }
 
+.txt_prop:hover {
+    color: white;
+}
+
 #ul_prop {
     justify-content: space-around;
     gap: 20rem;
     align-items: center;
 }
 
+/* --NAV PADRÃO--- */
 nav{
     display: flex;
     align-items: center;
