@@ -57,37 +57,6 @@ ul{
     list-style: none;
     margin-top: 1.2rem;
 }
-form{
-    display: flex;
-    justify-content: center;
-}
-/*FORM*/
-#principal {
-    width: 310px;
-    height: auto;
-    margin: auto;
-    margin-top: 50px;
-}
-
-
-label {
-    display: inline-block;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
-    margin: 5px;
-    width: 300px;
-    height: 16px;
-    
-}
-
-
-.form-control {
-    
-    width: 300px;
-    height: 30px;
-    margin: 5px;
-}
-
 
 a.nav_link{
     display: flex;
@@ -109,8 +78,29 @@ a.nav_link:hover{
     height: 4rem;
 }
 
-/* MAIN */
+/*FORM*/
 
+form{
+    display: flex;
+    justify-content: center;
+}
+label {
+    display: inline-block;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    margin-left: 5rem;
+    width: 300px;
+    height: 16px;
+    
+}
+.form-control {
+    
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    margin-left: 5rem;
+}
 .container{
     margin: auto;
     float: right;
@@ -120,11 +110,13 @@ a.nav_link:hover{
 
 
 
+/* MAIN */
+
 
 
 h1{
     padding-bottom: 2rem;
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: bolder;
 }
 
