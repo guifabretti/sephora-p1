@@ -4,8 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     padding: 0px;
@@ -22,18 +20,14 @@
     --fonte-goodgirl: 'Cormorant', serif;
 }
 
-header{
-    text-align: center;
-}
-
 body{
     font-size: 1.5rem;
     background-color: var(--cor-01);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 
-/* NAVEGAÇÃO */
+/* ----NAVEGAÇÃO---- */
 
 #pag_atual{
     text-decoration: none;
@@ -42,18 +36,13 @@ body{
     border-bottom: 2px solid black;
 }
 
-.propaganda {
-    position: sticky;
-    top: 1rem;
-    background-color: black;
-    height: 20px;
-}
+
 
 nav{
     display: flex;
     align-items: center;
     justify-content: left;
-
+ 
     background-color: white;
     padding: 0 3rem;
     height: 10rem;
@@ -80,6 +69,7 @@ a.nav_link{
 a.nav_link:hover{
     text-decoration: none;
     color: black;
+    text-underline-position: under;
     border-bottom: 2px solid black;
     /* margin-top: 2px; */
 }
@@ -88,68 +78,28 @@ a.nav_link:hover{
     height: 4rem;
 }
 
-/*FORM*/
-
-form{
-    display: flex;
-    justify-content: center;
-}
-label {
-    text-align: left;
-    font-family: Overpass;
-    font-size: 1,5rem;
-    font-weight: bold;
-    color: #202020;
-    margin: 5px;
-    margin-left: 5rem;
-    width: 300px;
-    height: 16px;
-    
-}
-#login{
-    width: 15rem;
-    height: 3.5rem;
-    font-size: 18px;
-    border: 1px solid transparent;
-    border-radius: 1.75rem;
-    font-family: var(--fonte01);
-    letter-spacing: 2.1px;
-    background-color: #202020;
-}
-#limpar{
-border: none;
-background: none;
-}
-.form-control {
-    
-    width: 300px;
-    height: 30px;
-    margin: 5px;
-    margin-left: 5rem;
-}
-.container{
-    margin: auto;
-    width: 100%;
-    text-align: center;
-}
-
-.titulo-registrar{
-    padding-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bolder;
-    text-align: center;
-    
-}
-
-
 /* MAIN */
 
+.container{
+    width: 100%;
+    display: flex;
+}
 
+h1{
+    font-size: 40px;
+}
 
-
-
+h2{
+    font-weight: bold;
+}
 
 /* FOOTER */
+
+
+footer{
+        background-color: black;
+        height: 40rem;
+    }
 
 #logo_footer{
     height: 6rem;
@@ -174,8 +124,8 @@ th{
     font-family: var(--fonte01);
 }
 
-
-
 .section_footer{
     text-align: center;
+    height: 50px;
 }
+
