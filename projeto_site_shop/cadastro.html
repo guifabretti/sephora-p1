@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="cadastro.css">
     <title>Document</title>
@@ -25,44 +26,59 @@
     <main>
         <br>
         <header>
-            <h1 class="account__title"><a href="https://www.sephora.com.br/home/"><i class="icon icon-left"></i></a>REGISTRE-SE</h1>
+            <h1 class="titulo-registrar"><a href="home.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="20" height="20"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+            </svg></a>REGISTRE-SE</h1>
         </header>
         <div class="card-body">
             <div class="container">
-            <form name="frm_fornecedor" action="cadastro_fornecedor.php" method="post">
+            <form name="frm_fornecedor" action="" method="post">
                 <div class="form-group">
                     <label> Nome completo: </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome completo:">
                 
-                    <label> Email </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label> Email: </label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu Email:">
                 
-                    <label> Telefone </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label> Telefone: </label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu telefone:">
                 
-                    <label> Sexo </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                    <label> Nome: </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label> Sexo: </label>
+                   <select class="form-control" id="sexo">
+                    <option value="">Selecione...</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                   </select>
+                   <label> Data de Nascimento: </label>
+                   <input type="date" class="form-control" id="formGroupExampleInput">
+               
                 </div>
                 <div class="form-group">
-                    <label> Data de Nascimento: </label>
-                    <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label> Escolaridade: </label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digíte sua Escolaridade">
                 
-                    <label> Escolaridade </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label> Endereço: </label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digíte seu Endereço">
                 
-                    <label> Endereço </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-                
-                    <label> Cidade </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label> Cidade: </label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digíte sua Cidade">
 
-                    <label> Pais </label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                    <label> País: </label>
+                    <input type="text" id="pais" name="pais" class="form-control" id="formGroupExampleInput" placeholder="Digíte seu País">
+
+                    <label> Deixe uma menssagem: </label>
+                    <textarea class="form-control" id="menssagem" name="menssagem"></textarea>
                 </div>
             </div>
-            
+            <div class="footer" style="text-align: center;">
+                <button type="submit" value="Entrar" name="login" id="login" class="btn btn-primary" >
+                    Cadastrar
+                    </button>
+                    
+                    <br>
+                    <button type="reset" name="limpar" id="limpar">Limpar</button>
+                    <br>
+                    <a href="login.html">Faça login</a>
+            </div>
                 </form>
             </div>
         </div>

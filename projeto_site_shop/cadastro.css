@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     padding: 0px;
@@ -85,14 +87,30 @@ form{
     justify-content: center;
 }
 label {
-    display: inline-block;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 14px;
+    text-align: left;
+    font-family: Overpass;
+    font-size: 1,5rem;
+    font-weight: bold;
+    color: #202020;
     margin: 5px;
     margin-left: 5rem;
     width: 300px;
     height: 16px;
     
+}
+#login{
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 1.75rem;
+    font-family: var(--fonte01);
+    letter-spacing: 2.1px;
+    background-color: #202020;
+}
+#limpar{
+border: none;
+background: none;
 }
 .form-control {
     
@@ -103,22 +121,23 @@ label {
 }
 .container{
     margin: auto;
-    float: right;
     width: 100%;
-    display: flex;
+    text-align: center;
 }
 
+.titulo-registrar{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    
+}
 
 
 /* MAIN */
 
 
 
-h1{
-    padding-bottom: 2rem;
-    font-size: 3rem;
-    font-weight: bolder;
-}
 
 
 
