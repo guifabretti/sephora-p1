@@ -22,6 +22,12 @@
     --fonte-goodgirl: 'Cormorant', serif;
 }
 
+body{
+    font-size: 1.5rem;
+    background-color: var(--cor-01);
+    background-color: white;
+}
+
 /* ---CABEÇALHO PRODUTOS--- */
 nav{
     display: flex;
@@ -75,11 +81,54 @@ a.nav_link:hover{
 section#secao_produtos {
     display: flex;
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 12rem;
 }
 
 .img_produtos {
     margin-top: 10rem;
     width: 40rem;
     height: 40rem;
+}
+
+.img_produtos_malbec {
+    width: 30rem;
+    height: 40rem;
+    margin-top: 10rem;
+} 
+
+/* ---FOOTER--- */
+
+footer{
+    background-color: black;
+    height: 40rem;
+}
+
+#logo_footer{
+height: 6rem;
+margin-top: 5rem;
+margin-bottom: 10rem;
+}
+
+table{
+width: 100%;
+color: white;
+margin-bottom: 5rem;
+font-family: var(--fonte01);
+}
+td{
+padding: 3px;
+text-align: center;
+font-family: var(--fonte01);
+background-color: black;
+}
+
+th{
+padding-bottom: 1.5rem;
+font-family: var(--fonte01);
+background-color: black;
+}
+
+.section_footer{
+text-align: center;
+height: 50px;
 }
