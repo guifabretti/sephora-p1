@@ -181,7 +181,7 @@ section#secao_produtos {
 .img_produtos {
     width: 30rem;
     height: 30rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
 }
 
 .produtos{
@@ -189,6 +189,7 @@ section#secao_produtos {
     border-radius: 2%;
     text-align: center;
     transition-duration: 0.3s;
+    width: 30rem;
 }
 .produtos:hover{
     /* border: 1px solid black; */
@@ -202,6 +203,14 @@ p#descricao_produtos {
     font-family: var(--fonte01);
     font-size: 1.5rem;
     padding: 0rem 2rem 2rem 2rem;
+}
+
+.preco_produto{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .link_produtos{
