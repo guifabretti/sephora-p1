@@ -28,11 +28,53 @@ body{
     background-color: white;
 }
 
-/* ---CABEÇALHO PRODUTOS--- */
+/*---PROPAGANDA--- */
+
+.propaganda{
+    position: fixed;
+    top: 1rem;
+    background-color: black;
+    height: 5rem;
+    margin-top: -1rem;
+    justify-content: space-around;
+}
+
+.img_prop {
+    height: 4.8rem;
+    justify-items: center;
+}
+
+.txt_prop {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.txt_prop:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#ul_prop {
+    justify-content: space-around;
+    gap: 20rem;
+    align-items: center;
+}
+
+/* --NAV PADRÃO--- */
+
+#pag_atual{
+    text-decoration: none;
+    color: black;
+    text-underline-position: under;
+    border-bottom: 2px solid black;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: left;
+    margin-top: 5rem;
  
     background-color: white;
     padding: 0 3rem;
@@ -44,7 +86,7 @@ nav{
 ul{
     display: flex;
     list-style: none;
-    margin-top: 1.2rem;
+    margin-top: 0.5rem;
 }
 
 a.nav_link{
@@ -70,6 +112,53 @@ a.nav_link:hover{
 }
 
 /* --- MAIN --- */
+/* --- CARROSSEL --- */
+.slider{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 2rem;
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+}
+
+.slider > input:nth-child(5):checked ~ .slider-content{
+    transform: translateX(-400%);
+}
+
+.slider > input:nth-child(6):checked ~ .slider-content{
+    transform: translateX(-500%);
+}
+
+.slider > input:nth-child(7):checked ~ .slider-content{
+    transform: translateX(-600%);
+}
+
+/* --- PRODUTOS --- */
 
 .titulo_produtos {
     font-family: var(--fonte01);
@@ -81,66 +170,48 @@ a.nav_link:hover{
 section#secao_produtos {
     display: flex;
     flex-wrap: wrap;
-    gap: 10rem;
-    align-items: center;
+    gap: 5rem; 
     padding: 1rem;
-    margin-left: 8rem;
+    justify-content: center;
+    width: 150rem;
+    margin: auto;
+    margin-top: 5rem;
 }
 
-.img_produtos_chanel {
-    margin-top: 10rem;
-    width: 40rem;
-    height: 40rem;
-    border: 1px solid black;
-    border-radius: 2%;
-}
-
-.img_produtos_malbec {
+.img_produtos {
     width: 30rem;
-    height: 40rem;
-    margin-top: 10rem;
-    border: 1px solid black;
-    border-radius: 2%;
-} 
-
-.img_produtos_hugoboss {
-    width: 40rem;
-    height: 40rem;
-    margin-top: 10rem;
-    border: 1px solid black;
-    border-radius: 2%;
-} 
-
-.img_produtos_goodgirl {
-    width: 40rem;
-    height: 40rem;
-    margin-top: 10rem;
-    border: 1px solid black;
-    border-radius: 2%;
+    height: 30rem;
+    padding: 2rem;
 }
 
-.img_produtos_bleudechanel {
-    width: 40rem;
-    height: 40rem;
-    margin-top: 10rem;
-    border: 1px solid black;
+.produtos{
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 2%;
-} 
-
-.img_produtos_nativespa {
-    width: 40rem;
-    height: 40rem;
-    margin-top: 10rem;
-    border: 1px solid black;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+.produtos:hover{
+    /* border: 1px solid black; */
     border-radius: 2%;
-} 
+    box-shadow: 0.5px 0.5px 0.5rem rgba(0, 0, 0, 0.384);
+    transition-duration: 0.3s;
+}
 
 p#descricao_produtos {
     text-align: center;
     font-family: var(--fonte01);
     font-size: 1.5rem;
+    padding: 0rem 2rem 2rem 2rem;
 }
 
+.link_produtos{
+    color: black;
+    text-decoration: none;
+}
+.link_produtos:hover{
+    color: black;
+    text-decoration: underline;
+}
 
 /* ---FOOTER--- */
 
@@ -148,6 +219,7 @@ p#descricao_produtos {
 footer{
     background-color: black;
     height: 40rem;
+    margin-top: 5rem;
 }
 
 #logo_footer{
