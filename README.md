@@ -6,6 +6,6 @@ Desenvolvido por:
 - Guilherme Fabretti
 - Vitor Jensen
 - Felipe Justino
-- Victor Bortoloso 
+- Victor Bortolozzo
 
 FUMEP, Escola de Engenharia de Piracicaba
