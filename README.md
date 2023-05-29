@@ -9,6 +9,7 @@ Desenvolvido por:
 - Victor Bortolozzo | RA: 202310068
 
 link projeto figma: https://www.figma.com/file/IpZgGlJhK2sp51UqLmDqYh/projetin?t=WYg3joRAUngZX4Dv-0
+
 link do site hospedado (github pages): https://leonardocremasco.github.io/sephora-p1/projeto_site_shop/home.html ou https://guifabretti.github.io/sephora-p1/projeto_site_shop/home.html
 
 FUMEP, Escola de Engenharia de Piracicaba.
