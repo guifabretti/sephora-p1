@@ -13,7 +13,7 @@ link do site hospedado (github pages): https://leonardocremasco.github.io/sephor
 
 FUMEP, Escola de Engenharia de Piracicaba.
 
-##Preview
+## Preview
 
 https://github.com/guifabretti/sephora-p1/assets/72526178/3f0fee17-6c9e-4542-886e-07ba7790f80e
 
